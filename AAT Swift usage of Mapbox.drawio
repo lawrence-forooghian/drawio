@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T19:21:06.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="WD3sMP1kR1rgYfIAzHNM" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T19:39:39.625Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="1xta5LR6Cfd3tcawXJFu" version="20.6.0" type="github">
   <diagram id="E6CHQcK8GbVTqyjpowNV" name="Page-1">
-    <mxGraphModel dx="1018" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1198" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,10 +44,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FOhgmxJPTKpgbxPE0luF-1" value="PassiveLocationManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-1" value="PassiveLocationManager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="375" y="420" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FOhgmxJPTKpgbxPE0luF-6" value="MapboxCoreNavigation" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;labelPosition=center;align=center;rounded=0;" parent="1" vertex="1">
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-6" value="MapboxCoreNavigation&lt;br&gt;library" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;labelPosition=center;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="80" y="350" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FOhgmxJPTKpgbxPE0luF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="FOhgmxJPTKpgbxPE0luF-9" target="FOhgmxJPTKpgbxPE0luF-20" edge="1">
@@ -58,10 +58,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FOhgmxJPTKpgbxPE0luF-9" value="PassiveLocationManagerDelegate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-9" value="PassiveLocationManagerDelegate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="350" y="520" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FOhgmxJPTKpgbxPE0luF-13" value="CLLocationManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-13" value="CLLocationManager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="385" y="150" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FOhgmxJPTKpgbxPE0luF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="FOhgmxJPTKpgbxPE0luF-14" target="FOhgmxJPTKpgbxPE0luF-6" edge="1">
@@ -80,10 +80,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FOhgmxJPTKpgbxPE0luF-14" value="NavigationLocationManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-14" value="NavigationLocationManager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="340" y="250" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="FOhgmxJPTKpgbxPE0luF-20" value="DefaultLocationService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-20" value="DefaultLocationService" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="350" y="615" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="musfPDqjqH2CiOjsmTJm-1" value="?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -91,6 +91,15 @@
         </mxCell>
         <mxCell id="musfPDqjqH2CiOjsmTJm-4" value="?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="505" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="musfPDqjqH2CiOjsmTJm-7" value="DefaultRouteProvider" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="210" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="musfPDqjqH2CiOjsmTJm-8" value="MapboxDirections&lt;br&gt;library" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;labelPosition=center;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="760" y="90" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="musfPDqjqH2CiOjsmTJm-9" value="&lt;h1&gt;AAT Swift’s usage of the Mapbox SDKs&lt;/h1&gt;&lt;p&gt;I based this on the results of searching for &quot;import Mapbox*&quot; in commit&amp;nbsp;ede6587.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="390" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
