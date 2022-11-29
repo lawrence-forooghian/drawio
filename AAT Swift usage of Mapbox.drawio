@@ -1,1 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T19:14:41.403Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="jLNebW_ilNqbjfRYpqKI" version="20.6.0" type="github"><diagram id="E6CHQcK8GbVTqyjpowNV" name="Page-1">3Vlbc+I2FP41PIaRbUzgsYHQnW7SMk1n2n0UtrDVFZZHFsHk1/fIli+KDEt3wtoLD2AdXX2+852LGHmLXf6rwGn8zEPCRi4K85G3HLmug5wZ/CjJsZRMZ/NSEAka6kGN4IW+kWqmlu5pSDJjoOScSZqawoAnCQmkIcNC8IM5bMuZuWuKI2IJXgLMbOnfNJSxlk4Rajo+ERrFeut51bHD1WAtyGIc8kNL5D2OvIXgXJZPu3xBmFJepZdy3upEb30wQRJ5yYTVH3G0y39b//U5jTb5+hGx/eruXp9NHqsXJiG8v25yIWMe8QSzx0b6IPg+CYlaFUGrGfPEeQpCB4T/EimPGky8lxxEsdwx3QsHFsd/1PyxXzW/tPuWuV68bB3brTURdEckEVpYvoA69Um9aFHG9yIgZ5RR2RcWEZFnxk1r9MDsCYfTiCPME4RhSV/Nc2Btf1E9roEIHjRK/wMxzadXzPZ6JzB9iWkCiMDUpBPQJ7wBXhogYEajBJ4DUJNS5sMrEZKC4f+iO3Y0DEu8SUbf8KZYT2k85TSRxWv5DyN/WWOgFiD5qIOVenLDhTY6p+3SVrFe/Q6NHc/zyrUuVrtebq2O3xrCt9sM4H6PS73r90PlOJ1gXJtdOZUtckHrS6unoZZqGMzqYCT6BiN7IN+8T/I5rsW+GDaBnW6DdqXFnuMdup/4g+edPxzeobO864E/zqRXAk0tAtGESgq0eAM6qPN/JQWhIJAhnkqqMCgCWyZxAhoA6fZGyOafJRtwzZ9rS9bJ8507eOpZ8K5xlsFRn3iAFZjPOIGMWVgImvQ7xFSSlxQXFn+AysLE9SQWFnFOate7N1U7qWA7tLJ8X8viVoI/QVeihs2MZ5xueL7ggvyOX2lU6M9SXGXShfmveUaLUS3TPmnzLYVCbZKq9XZ5pMq48QZnNBinWAJtkhVl7M+itnrYwmPlRkOKIzVVEuUf/bpX8K91qYTGriFfcMZFcW4vLD7Qy94dvCarxd4PgH2GDNQ9vwP1yY9E3f1pcsQPjFXzC2NVq07uIVa5drIHfimIdZmF4C3h+2X5WQmy24hJ36APJIDu3B184TW/MAotCSPgVkn/0cg3/ZLfEY1c1OGXvGv5JcezdLh4GlwQn5lB3Oly596PdOfVdWdP7rxdeNSu/WNL/qtfwk0uDA693sI5tou5xWu40pzPhgMPzYYeDqqANYQc6/x9wPfejPfBvzJC9JacTSwCZvtNwCDO39AVgXtCx138OxpbDpeNjo1cU94OLsOYmImZ25Fh1HC2M4z7qxWMyFLfyFv1r6h3Gey0uoS9QgYLzeZv09Ismz+fvcf/AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-29T19:17:26.878Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="PJvG04-FNzu--Drj0Cxn" version="20.6.0" type="github">
+  <diagram id="E6CHQcK8GbVTqyjpowNV" name="Page-1">
+    <mxGraphModel dx="1018" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="FOhgmxJPTKpgbxPE0luF-1" target="FOhgmxJPTKpgbxPE0luF-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-8" value="contained in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FOhgmxJPTKpgbxPE0luF-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.1333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FOhgmxJPTKpgbxPE0luF-1" target="FOhgmxJPTKpgbxPE0luF-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-12" value="has a" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FOhgmxJPTKpgbxPE0luF-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.0745" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="FOhgmxJPTKpgbxPE0luF-1" target="FOhgmxJPTKpgbxPE0luF-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-16" value="initializer takes an optional instance of" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FOhgmxJPTKpgbxPE0luF-15" vertex="1" connectable="0">
+          <mxGeometry x="0.0595" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="musfPDqjqH2CiOjsmTJm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FOhgmxJPTKpgbxPE0luF-1" target="musfPDqjqH2CiOjsmTJm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="musfPDqjqH2CiOjsmTJm-3" value="which in our SDK is used for" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="musfPDqjqH2CiOjsmTJm-2">
+          <mxGeometry x="-0.363" y="2" relative="1" as="geometry">
+            <mxPoint x="51" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-1" value="PassiveLocationManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="375" y="420" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-6" value="MapboxCoreNavigation" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;labelPosition=center;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="350" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="FOhgmxJPTKpgbxPE0luF-9" target="FOhgmxJPTKpgbxPE0luF-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-22" value="which in our SDK is" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FOhgmxJPTKpgbxPE0luF-21" vertex="1" connectable="0">
+          <mxGeometry x="-0.2923" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-9" value="PassiveLocationManagerDelegate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="520" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-13" value="CLLocationManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="385" y="150" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="FOhgmxJPTKpgbxPE0luF-14" target="FOhgmxJPTKpgbxPE0luF-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-19" value="contained in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FOhgmxJPTKpgbxPE0luF-18" vertex="1" connectable="0">
+          <mxGeometry x="-0.2308" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="FOhgmxJPTKpgbxPE0luF-14" target="FOhgmxJPTKpgbxPE0luF-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-24" value="subclass of" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FOhgmxJPTKpgbxPE0luF-23" vertex="1" connectable="0">
+          <mxGeometry x="-0.2308" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-14" value="NavigationLocationManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="250" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FOhgmxJPTKpgbxPE0luF-20" value="DefaultLocationService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="615" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="musfPDqjqH2CiOjsmTJm-1" value="?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
