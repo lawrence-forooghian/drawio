@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T19:54:51.960Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="bA1jJ69hE6SZ0uko0ytm" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T19:58:58.453Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="0hAhdZoHvHSL_Vt9FmLY" version="20.6.0" type="github">
   <diagram id="E6CHQcK8GbVTqyjpowNV" name="Page-1">
-    <mxGraphModel dx="1198" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1018" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,7 +100,7 @@
         <mxCell id="musfPDqjqH2CiOjsmTJm-15" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="musfPDqjqH2CiOjsmTJm-7" target="musfPDqjqH2CiOjsmTJm-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="musfPDqjqH2CiOjsmTJm-16" value="initializes with credentials&lt;br&gt;and then uses to create a Route" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="musfPDqjqH2CiOjsmTJm-15">
+        <mxCell id="musfPDqjqH2CiOjsmTJm-16" value="initializes with Credentials&lt;br&gt;and then uses to create a Route" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="musfPDqjqH2CiOjsmTJm-15">
           <mxGeometry x="0.3257" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -151,6 +151,18 @@
         </mxCell>
         <mxCell id="musfPDqjqH2CiOjsmTJm-57" value="Note this location manager has nothing to do with that used by DefaultLocationService" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="570" y="80" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="musfPDqjqH2CiOjsmTJm-59" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.707;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="musfPDqjqH2CiOjsmTJm-58" target="musfPDqjqH2CiOjsmTJm-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="270" />
+              <mxPoint x="870" y="200" />
+              <mxPoint x="859" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="musfPDqjqH2CiOjsmTJm-58" value="Credentials" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="860" y="270" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
