@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T20:46:37.593Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="mkYqiINNoBxmPQbwkkI-" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T09:01:52.999Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="0V5_uw10YQDmnGL6Z5WE" version="20.6.0" type="github">
   <diagram id="E6CHQcK8GbVTqyjpowNV" name="Page-1">
-    <mxGraphModel dx="1697" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1018" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,7 +70,7 @@
         <mxCell id="musfPDqjqH2CiOjsmTJm-66" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="FOhgmxJPTKpgbxPE0luF-20" target="musfPDqjqH2CiOjsmTJm-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="musfPDqjqH2CiOjsmTJm-67" value="calls initialize on shared&lt;br&gt;instance of, passing&lt;br&gt;the created&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="musfPDqjqH2CiOjsmTJm-66">
+        <mxCell id="musfPDqjqH2CiOjsmTJm-67" value="calls initialize on shared&lt;br&gt;instance of, passing&lt;br&gt;the created Directions&lt;br&gt;instance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="musfPDqjqH2CiOjsmTJm-66">
           <mxGeometry x="0.4032" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -127,7 +127,7 @@
         </mxCell>
         <mxCell id="musfPDqjqH2CiOjsmTJm-16" value="initializes with Credentials&lt;br&gt;and then uses to create a Route" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="musfPDqjqH2CiOjsmTJm-15">
           <mxGeometry x="0.3257" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="66" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="musfPDqjqH2CiOjsmTJm-17" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="musfPDqjqH2CiOjsmTJm-7" target="FOhgmxJPTKpgbxPE0luF-13">
