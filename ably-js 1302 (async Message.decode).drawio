@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T19:50:59.456Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="RWmG5C4M8uW0qp78Y5gU" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-25T20:19:42.675Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="ULaqC2TS3TQ4EMPjWtns" version="21.3.4" type="github">
   <diagram name="Page-1" id="bqg4AT4LUmdeRJvYdjdG">
     <mxGraphModel dx="1140" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
         <mxCell id="s_DyGTZ0WG8gpCI7RQzg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="s_DyGTZ0WG8gpCI7RQzg-16" target="s_DyGTZ0WG8gpCI7RQzg-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s_DyGTZ0WG8gpCI7RQzg-16" value="Channels#onChannelMessage(ProtocolMessage)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="s_DyGTZ0WG8gpCI7RQzg-16" value="Channels#onChannelMessage(ProtocolMessage)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="877.5" y="260" width="275" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s_DyGTZ0WG8gpCI7RQzg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s_DyGTZ0WG8gpCI7RQzg-18" target="s_DyGTZ0WG8gpCI7RQzg-16">
@@ -89,8 +89,23 @@
         <mxCell id="s_DyGTZ0WG8gpCI7RQzg-32" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1183" y="320" width="20" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="s_DyGTZ0WG8gpCI7RQzg-33" value="Decides whether to pass on based on transport and message.action" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="320" width="170" height="50" as="geometry" />
+        <mxCell id="s_DyGTZ0WG8gpCI7RQzg-33" value="Decides whether to pass on based on transport and message.action — we don&#39;t want an outdated message to have side effects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="320" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s_DyGTZ0WG8gpCI7RQzg-34" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="250" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s_DyGTZ0WG8gpCI7RQzg-35" value="Finds channel in this.all (will only be missing if release has been called, niche)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="255" width="177" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s_DyGTZ0WG8gpCI7RQzg-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s_DyGTZ0WG8gpCI7RQzg-36" target="s_DyGTZ0WG8gpCI7RQzg-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_DyGTZ0WG8gpCI7RQzg-36" value="If we were to introduce a queue at this level, it would be just like having a slow transport?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="340" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s_DyGTZ0WG8gpCI7RQzg-38" value="Behaviours to preserve:&lt;br&gt;&lt;br&gt;RealtimeChannel#onMessage is called in serial in the order messages arrive, waiting for one to complete before handling next" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="600" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
