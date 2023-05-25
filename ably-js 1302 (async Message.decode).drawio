@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T19:37:40.320Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="i296CqDjve5HusKEski9" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-25T19:43:03.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="m4XRsXsC_peqZPV3lLG0" version="21.3.4" type="github">
   <diagram name="Page-1" id="bqg4AT4LUmdeRJvYdjdG">
     <mxGraphModel dx="1140" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,6 +76,9 @@
         </mxCell>
         <mxCell id="s_DyGTZ0WG8gpCI7RQzg-24" value="CometTransport#onData(string | Record&amp;lt;string, any&amp;gt;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="456.5" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s_DyGTZ0WG8gpCI7RQzg-29" value="My rough feeling here is that we need&amp;nbsp;&lt;br&gt;to figure out until what point in this&lt;br&gt;call stack we can just pass everything&lt;br&gt;on blindly and synchronously, and at what&lt;br&gt;point we need to start waiting&lt;br&gt;&lt;br&gt;My feeling is that Message.decode should become&lt;br&gt;side-effect free and then async" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="130" width="350" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
